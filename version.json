@@ -1,8 +1,10 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "updated": "2026-10-15",
   "total_rub": 318000,
   "scenes": 14,
   "duration_seconds": 295,
-  "publication": "github-pages"
+  "publication": "github-pages",
+  "shared_comments": true,
+  "comments_access": "shared-code"
 }
