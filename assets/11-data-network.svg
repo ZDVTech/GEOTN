@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Drill Monitor: несколько буровых, спутниковая связь, сервер и обратная связь инженеров</title>
+<desc id="desc">Целевая схема. Измерения декодируются на поверхности, наземные шлюзы передают данные через спутниковый или доступный наземный канал на сервер. Специалисты возвращают рекомендации, полевая команда подтверждает получение. Это не спутниковая связь непосредственно со скважинными приборами.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081924"/><stop offset="1" stop-color="#122b2b"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#51dfe6" stop-opacity=".13"/><stop offset="1" stop-color="#51dfe6" stop-opacity="0"/></radialGradient>
+ <marker id="up" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#65dcef" stroke-width="1.5"/></marker>
+ <marker id="back" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 8 4 0 8" fill="none" stroke="#ffc576" stroke-width="1.5"/></marker>
+ <symbol id="rig" viewBox="0 0 160 130">
+  <g fill="none" stroke="#a9c7c9" stroke-width="3"><path d="M66 15 43 108H96L73 15Z M61 35 83 50 53 68 90 85 44 108 M78 35 57 50 86 68 49 85 96 108 M69 15V111"/><path d="M19 111H135M27 111V124M119 111V124M28 106V82H44"/></g>
+  <path d="M57 10H81V20H57Z" fill="#f4bd68"/><rect x="3" y="97" width="37" height="15" rx="2" fill="#315d73"/><rect x="103" y="88" width="45" height="24" rx="3" fill="#315d73"/><path d="M108 96H141M108 102H141" stroke="#6c99ab"/>
+  <circle cx="123" cy="46" r="5" fill="#a6e687"/><path d="M117 38Q110 46 117 54M129 38Q136 46 129 54" fill="none" stroke="#a6e687" stroke-width="2"/>
+ </symbol>
+ <symbol id="satellite" viewBox="0 0 240 130">
+  <g transform="rotate(-16 120 65)"><path d="M79 50H38M160 50H201" stroke="#a7bdca" stroke-width="9"/><g fill="#2b6892" stroke="#6e9dbb" stroke-width="2"><rect x="8" y="23" width="67" height="58" rx="2"/><rect x="168" y="23" width="67" height="58" rx="2"/><path d="M30 23V81M52 23V81M8 52H75M190 23V81M212 23V81M168 52H235"/></g><path d="M90 28H151V86H90Z" fill="#ceb16d" stroke="#f6d99b" stroke-width="2"/><path d="M90 28 105 16H160L151 28M151 28 160 16V71L151 86" fill="#91783d" stroke="#d6be7b"/><path d="M116 87V104M101 105Q121 126 141 105Z" fill="#dce8e5" stroke="#a9bfca" stroke-width="2"/></g>
+ </symbol>
+ <symbol id="dish" viewBox="0 0 150 130"><path d="M49 26Q45 78 107 91L49 26Z" fill="#668d9f" stroke="#c0d8df" stroke-width="3"/><path d="M68 63 105 31M101 29 111 36M85 83 67 115M50 116H104" fill="none" stroke="#aac5ce" stroke-width="5"/><path d="M106 20Q128 27 130 49M109 7Q145 18 146 52" fill="none" stroke="#65dcef" stroke-width="3"/></symbol>
+ <symbol id="server" viewBox="0 0 150 170"><path d="M20 14H117L139 29V153L117 167H20Z" fill="#173e50" stroke="#638b9d" stroke-width="2"/><path d="M117 14V167M117 14 139 29" stroke="#638b9d" fill="none"/><g fill="#0d2838" stroke="#5b8797"><rect x="31" y="28" width="74" height="29" rx="3"/><rect x="31" y="66" width="74" height="29" rx="3"/><rect x="31" y="104" width="74" height="29" rx="3"/></g><g fill="#a6e687"><circle cx="42" cy="42" r="3"/><circle cx="42" cy="80" r="3"/><circle cx="42" cy="118" r="3"/></g><path d="M54 42H92M54 80H92M54 118H92" stroke="#6894a5" stroke-width="3"/></symbol>
+ <symbol id="office" viewBox="0 0 210 150"><path d="M12 16 105 1 199 16V126H12Z" fill="#183942" stroke="#62858d" stroke-width="2"/><g fill="#092331" stroke="#7fa8b6" stroke-width="2"><rect x="27" y="29" width="66" height="48" rx="3"/><rect x="111" y="29" width="66" height="48" rx="3"/></g><path d="M34 62 44 52 54 55 64 40 80 48M119 58 131 43 141 54 153 47 169 40" fill="none" stroke="#65dcef" stroke-width="2"/><path d="M60 78V88M143 78V88M24 91H185" stroke="#b1c6c8" stroke-width="3"/><circle cx="102" cy="99" r="10" fill="#a9c2c1"/><path d="M82 135V124Q102 107 122 124V135" fill="#4f7c7e"/></symbol>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/><ellipse cx="1000" cy="455" rx="620" ry="410" fill="url(#glow)"/>
+<path d="M0 718Q800 386 1600 716M0 746Q800 414 1600 744" fill="none" stroke="#24444b" stroke-width="1"/>
+<g font-family="Arial,sans-serif" fill="#e4f1ee">
+ <text x="48" y="48" fill="#addc9b" font-size="16" letter-spacing="3">СЦЕНА 11 / ЦЕЛЕВАЯ СХЕМА ОБМЕНА</text>
+ <text x="48" y="104" font-size="41" font-weight="700">Несколько буровых. Один информационный контур.</text>
+ <text x="48" y="140" font-size="22" fill="#a7bfc4">Измерения → сервер Drill Monitor → специалисты → рекомендации и подтверждения</text>
+ <g opacity=".5" stroke="#26444b" fill="none"><path d="M48 176H1552M48 720H1552"/><path d="M400 176V720M1120 176V720" stroke-dasharray="3 11"/></g>
+ <g class="flow-up" fill="none" stroke="#65dcef" stroke-width="3" marker-end="url(#up)">
+  <path d="M263 302 400 435"/><path d="M263 458H400"/><path d="M263 623 400 481"/>
+  <path d="M533 420Q570 252 718 239"/><path d="M858 246Q932 250 966 327"/><path d="M1040 416 1170 478"/>
+  <path d="M532 480Q770 656 1167 519"/><path d="M1290 470 1390 370"/><path d="M1308 514 1391 604"/>
+ </g>
+ <g class="flow-back" fill="none" stroke="#ffc576" stroke-width="3" marker-end="url(#back)">
+  <path d="M1390 405 1306 490"/><path d="M1180 538Q765 705 529 506"/><path d="M1175 457 1040 392"/><path d="M975 309Q925 218 847 218"/><path d="M708 212Q542 231 502 413"/><path d="M405 503 267 647"/><path d="M405 448 267 326"/><path d="M405 480H267"/>
+ </g>
+ <g><use href="#rig" x="48" y="190" width="180" height="146"/><text x="220" y="270" font-size="24" font-weight="700">Буровая А</text><text x="220" y="298" fill="#8faeb8" font-size="17">Объект / скважина / рейс</text>
+ <use href="#rig" x="48" y="350" width="180" height="146"/><text x="220" y="430" font-size="24" font-weight="700">Буровая Б</text><text x="220" y="458" fill="#8faeb8" font-size="17">Свой источник данных</text>
+ <use href="#rig" x="48" y="510" width="180" height="146"/><text x="220" y="590" font-size="24" font-weight="700">Буровая В</text><text x="220" y="618" fill="#8faeb8" font-size="17">Свой идентификатор</text></g>
+ <g><rect x="410" y="420" width="122" height="90" rx="12" fill="#143f48" stroke="#6b9ca4" stroke-width="2"/><path d="M432 446H508M432 460H508M432 474H479" stroke="#9abdc2" stroke-width="3"/><circle cx="502" cy="485" r="4" fill="#a6e687"/>
+ <text x="471" y="544" text-anchor="middle" font-size="22" font-weight="700">Наземные шлюзы</text><text x="471" y="571" text-anchor="middle" font-size="17" fill="#a7bfc4">на каждой буровой</text></g>
+ <use href="#satellite" x="653" y="159" width="263" height="143"/>
+ <text x="778" y="332" text-anchor="middle" font-size="23" font-weight="700">Спутниковый канал</text><text x="778" y="361" text-anchor="middle" font-size="17" fill="#a7bfc4">где он доступен на объекте</text>
+ <use href="#dish" x="937" y="294" width="132" height="115"/>
+ <text x="1007" y="444" text-anchor="middle" font-size="20">Наземная станция</text>
+ <rect x="642" y="578" width="390" height="54" rx="27" fill="#132f3a" stroke="#426b78"/>
+ <text x="837" y="612" text-anchor="middle" fill="#bdd9de" font-size="20">Наземная сеть: LTE / проводная / иная</text>
+ <use href="#server" x="1166" y="394" width="136" height="155"/>
+ <text x="1236" y="584" text-anchor="middle" font-size="27" font-weight="700" fill="#afe88c">Сервер Drill Monitor</text><text x="1236" y="614" text-anchor="middle" fill="#a7bfc4" font-size="18">Приём · история · обработка</text>
+ <use href="#office" x="1369" y="242" width="185" height="132"/>
+ <text x="1460" y="408" text-anchor="middle" font-size="22" font-weight="700">Центр сопровождения</text><text x="1460" y="437" text-anchor="middle" font-size="17" fill="#a7bfc4">Инженер / геонавигация / офис</text>
+ <g><rect x="1412" y="555" width="65" height="97" rx="10" fill="#193c49" stroke="#89b2bf" stroke-width="3"/><rect x="1421" y="568" width="47" height="67" rx="2" fill="#0a2631"/><path d="M1428 615 1436 604 1444 609 1461 582" fill="none" stroke="#a6e687" stroke-width="2"/><circle cx="1444" cy="644" r="3" fill="#89b2bf"/>
+ <text x="1450" y="684" text-anchor="middle" font-size="21">Доступ специалиста</text></g>
+ <g font-size="18"><path d="M563 676H609" stroke="#65dcef" stroke-width="3" marker-end="url(#up)"/><text x="625" y="683" fill="#65dcef">Измерения, события, статусы</text><path d="M971 676H925" stroke="#ffc576" stroke-width="3" marker-end="url(#back)"/><text x="989" y="683" fill="#ffc576">Рекомендации и подтверждения</text></g>
+ <g><rect x="48" y="751" width="464" height="108" rx="12" fill="#102b35" stroke="#36545e"/><text x="68" y="782" font-size="20" font-weight="700">Отдельный скважинный канал</text><text x="68" y="812" font-size="19" fill="#c4d7db">MWD → импульсы давления → декодер</text><text x="68" y="840" font-size="17" fill="#89a8b3">Со спутником связывается наземное оборудование.</text>
+ <rect x="532" y="751" width="490" height="108" rx="12" fill="#102b35" stroke="#36545e"/><text x="552" y="782" font-size="20" font-weight="700" fill="#65dcef">Что приходит в пакете</text><text x="552" y="812" font-size="19" fill="#c4d7db">ID скважины и рейса · время · измерения</text><text x="552" y="840" font-size="17" fill="#89a8b3">Глубина · единицы · источник · качество · события</text>
+ <rect x="1042" y="751" width="510" height="108" rx="12" fill="#102b35" stroke="#36545e"/><text x="1062" y="782" font-size="20" font-weight="700" fill="#ffc576">Что идёт обратно</text><text x="1062" y="812" font-size="19" fill="#c4d7db">Рекомендация → инженер → подтверждение</text><text x="1062" y="840" font-size="17" fill="#89a8b3">Прямое управление приборами здесь не заявляется.</text></g>
+ <text x="48" y="887" fill="#7798a4" font-size="15">Поясняющая архитектура: реальные каналы, интеграции и размещение сервера согласуются для конкретного внедрения.</text>
+</g></svg>

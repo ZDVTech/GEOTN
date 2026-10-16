@@ -1,11 +1,12 @@
 {
-  "version": "2.3",
-  "updated": "2026-10-15",
+  "version": "2.4",
+  "updated": "2026-10-16",
   "total_rub": 318000,
   "scenes": 14,
   "duration_seconds": 295,
   "publication": "github-pages",
   "shared_comments": true,
   "comments_access": "public-no-code",
-  "notes_numbering": "per-scene"
+  "notes_numbering": "per-scene",
+  "network_slide": "network.html"
 }
