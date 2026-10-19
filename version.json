@@ -1,14 +1,20 @@
 {
-  "version": "4.0",
+  "version": "4.1",
   "updated": "2026-10-19",
   "schedule_days": 14,
   "scenes": 14,
   "duration_seconds": 300,
-  "structure": "2m_hardware_3m_software_ai",
+  "structure": "2m_hardware_3m_software_mathcore_and_development",
   "publication": "github-pages",
   "shared_comments": true,
   "editable_voiceover": true,
   "comments_access": "public-no-code",
   "notes_numbering": "per-scene",
-  "network_slide": "network.html"
+  "network_slide": "network.html",
+  "schedule_status": "working-plan-reserve-to-agree",
+  "film_treatment": "production.html",
+  "film_treatment_version": "4.1",
+  "ai_status": "development",
+  "math_core_status": "in-development",
+  "scene_ids_preserved": true
 }
